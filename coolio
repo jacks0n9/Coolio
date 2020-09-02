@@ -1,4 +1,5 @@
 #!/bin/bash
+currentv = 3.0
 if [ "$1" = "update" ]
 then
   curl -S -s -o /usr/local/bin/coolioupdate.sh https://raw.githubusercontent.com/elnepik/Coolio/master/coolioupdate.sh
@@ -9,6 +10,6 @@ then
 echo "Getting latest version"
   curl -S -s -o /usr/local/bin/latestversion https://raw.githubusercontent.com/elnepik/Coolio/master/version
   cat /usr/local/bin/latestversion | read lcoolv
-  echo "$lcoolv"
+  echo "$currentv"
   rm /usr/local/bin/latestversion
 fi
