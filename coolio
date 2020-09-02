@@ -9,6 +9,6 @@ elif [ "$1" = "status" ]
 then
   curl -S -s -o /usr/local/bin/latestversion https://raw.githubusercontent.com/elnepik/Coolio/master/version
   cat /usr/local/bin/latestversion | read lcoolv
-  echo "The latest version is $lcoolv"
+  echo $lcoolv
   rm /usr/local/bin/latestversion
 fi
