@@ -6,10 +6,14 @@ then
   bash /usr/local/bin/coolioupdate.sh
 elif [ "$1" = "version" ]
 then
-  echo $currentv
+    echo $currentv
 elif [ "$1" = "source" ]
 then
-  nano /usr/local/bin/coolio
+    nano /usr/local/bin/coolio
+elif [ "$1" = "uninstall"]
+then
+    rm /usr/local/bin/coolio
+    
 else
-  echo "Unknown command"
+    echo "Unknown command"
 fi
