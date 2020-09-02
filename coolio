@@ -7,11 +7,7 @@ then
   bash /usr/local/bin/coolioupdate.sh
 elif [ "$1" = "status" ]
 then
-  echo "Getting latest version"
-  curl -S -s -o /usr/local/bin/latestversion https://raw.githubusercontent.com/elnepik/Coolio/master/version
-  cat /usr/local/bin/latestversion | read lcoolv
   echo "$currentv"
-  rm /usr/local/bin/latestversion
 elif [ "$1" = "source" ]
 then
   nano /usr/local/bin/coolio
