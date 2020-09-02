@@ -1,5 +1,5 @@
 #!/bin/bash
-currentv="4.0"
+currentv="beta 4.0"
 if [ "$1" = "update" ]
 then
       curl -S -s -o /usr/local/bin/coolioupdate.sh https://raw.githubusercontent.com/elnepik/Coolio/master/coolioupdate.sh
