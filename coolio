@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Hello"
+echo "Hello update test 1 success!"
 if [ "$1" = "update" ]
 then
   curl -o /usr/local/bin/coolioupdate.sh https://raw.githubusercontent.com/elnepik/Coolio/master/coolioupdate.sh
