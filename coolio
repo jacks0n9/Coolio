@@ -5,7 +5,7 @@ then
   curl -o /usr/local/bin/coolioupdate.sh https://raw.githubusercontent.com/elnepik/Coolio/master/coolioupdate.sh
   chmod +x /usr/local/bin/coolioupdate.sh
   bash /usr/local/bin/coolioupdate.sh
-elif [ "$1" = "status"]
+elif [ "$1" = "status" ]
 then
   curl -o /usr/local/bin/latestversion https://raw.githubusercontent.com/elnepik/Coolio/master/version
   cat latestversion | read lcoolv
