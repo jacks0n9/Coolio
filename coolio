@@ -5,4 +5,3 @@ then
   curl -o /usr/local/bin/coolioupdate.sh https://raw.githubusercontent.com/elnepik/Coolio/master/coolioupdate.sh
   chmod +x /usr/local/bin/coolioupdate.sh
   ./coolioupdate.sh
-exit
