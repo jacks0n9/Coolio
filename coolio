@@ -11,4 +11,6 @@ then
 elif [ "$1" = "source" ]
 then
   nano /usr/local/bin/coolio
+else
+  echo "Unknown command"
 fi
