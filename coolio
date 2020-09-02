@@ -1,9 +1,9 @@
 #!/bin/bash
 if [ "$1" = "update" ]
 then
-  curl -S -s -o /usr/local/bin/coolioupdate.sh https://raw.githubusercontent.com/elnepik/Coolio/master/coolioupdate.sh
-  chmod +x /usr/local/bin/coolioupdate.sh
-  bash /usr/local/bin/coolioupdate.sh
+      curl -S -s -o /usr/local/bin/coolioupdate.sh https://raw.githubusercontent.com/elnepik/Coolio/master/coolioupdate.sh
+    chmod +x /usr/local/bin/coolioupdate.sh
+    bash /usr/local/bin/coolioupdate.sh
 elif [ "$1" = "version" ]
 then
     echo $currentv
