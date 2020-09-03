@@ -15,7 +15,9 @@ elif [ "$1" = "uninstall" ]
 then
     rm /usr/local/bin/coolio
     
-elif [ "$1"]
+elif [ "$1" = "create" ]
+then
+    bash /usr/local/bin/createcool.sh
 else
     echo "Invalid option. Valid Options are uninstall, version, source, and update."
 fi
