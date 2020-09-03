@@ -14,7 +14,7 @@ then
 elif [ "$1" = "uninstall" ]
 then
     rm /usr/local/bin/coolio
-    
+    rm /usr/local/bin/createcool.sh
 elif [ "$1" = "create" ]
 then
     bash /usr/local/bin/createcool.sh
