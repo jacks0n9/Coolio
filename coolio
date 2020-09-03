@@ -5,7 +5,6 @@ then
     curl -S -s -o /usr/local/bin/coolioupdate.sh https://raw.githubusercontent.com/elnepik/Coolio/master/coolioupdate.sh
     chmod +x /usr/local/bin/coolioupdate.sh
     bash /usr/local/bin/coolioupdate.sh
-    rm -r /usr/local/bin/mypkgs
 elif [ "$1" = "version" ]
 then
     echo $currentv
@@ -16,6 +15,7 @@ elif [ "$1" = "uninstall" ]
 then
     rm /usr/local/bin/coolio
     rm /usr/local/bin/createcool.sh
+    rm -r /usr/local/bin/mypkgs
 elif [ "$1" = "create" ]
 then
     bash /usr/local/bin/createcool.sh
