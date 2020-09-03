@@ -20,5 +20,5 @@ elif [ "$1" = "create" ]
 then
     bash /usr/local/bin/createcool.sh
 else
-    echo "Invalid option. Valid Options are uninstall, version, source, and update."
+    echo "Invalid option. Valid Options are uninstall, version, source, create, and update."
 fi
