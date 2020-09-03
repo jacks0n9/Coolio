@@ -15,6 +15,7 @@ elif [ "$1" = "uninstall" ]
 then
     rm /usr/local/bin/coolio
     
+elif [ "$1"]
 else
     echo "Invalid option. Valid Options are uninstall, version, source, and update."
 fi
