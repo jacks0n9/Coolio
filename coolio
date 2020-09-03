@@ -16,5 +16,5 @@ then
     rm /usr/local/bin/coolio
     
 else
-    echo "Unknown command"
+    echo "Invalid option. Valid Options are uninstall, version, and update."
 fi
